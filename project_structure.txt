@@ -1,0 +1,20 @@
+ecom-analytics/
+│
+├── data/
+│   └── ecom_dataset.csv
+│
+├── scripts/
+│   ├── analyze_views.py
+│   ├── check_dataset_quality.py
+│   ├── dashboard.py
+│   ├── generate_mock_sales.py
+│   ├── load_dataset.py
+│   ├── load_to_mysql.py
+│   └── test_mysql_conn.py
+│
+├── mysqlworkbench/
+│   ├── db creation.txt
+│   └── user privileges.txt
+│
+├── README.md
+└── requirements.txt
