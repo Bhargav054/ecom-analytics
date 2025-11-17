@@ -1,46 +1,49 @@
-# ------------------------
-# Python / Virtual Env
-# ------------------------
+# -----------------------
+# Python
+# -----------------------
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.pdb
-*.egg-info/
-.env
+*.sqlite3
+
+# Virtual environment
 .venv/
 venv/
+ENV/
 env/
 
-# ------------------------
-# Streamlit cache
-# ------------------------
-.streamlit/
-
-# ------------------------
-# Jupyter & VS Code
-# ------------------------
+# Jupyter
 .ipynb_checkpoints/
+
+# VSCode
 .vscode/
 
-# ------------------------
-# OS Files
-# ------------------------
+# OS files
 .DS_Store
 Thumbs.db
 
-# ------------------------
 # Logs
-# ------------------------
 *.log
 
-# ------------------------
-# MySQL credentials (if any)
-# ------------------------
-*.cnf
-*.env
+# Cache
+*.cache/
+.cache/
 
-# ------------------------
-# Compiled files
-# ------------------------
-*.sqlite3
+# Streamlit
+.streamlit/
+
+# Credentials
+*.env
+.env
+*.ini
+
+# MySQL dumps
+*.sql
+
+# -----------------------
+# Project specific
+# -----------------------
+data/raw/
+data/tmp/
+data/intermediate/
