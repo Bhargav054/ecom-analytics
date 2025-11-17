@@ -1,49 +1,41 @@
-# -----------------------
-# Python
-# -----------------------
+# ---- Python ----
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.sqlite3
 
-# Virtual environment
+# ---- Virtual Environments ----
+.env
 .venv/
 venv/
 ENV/
 env/
+*.env
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VSCode
+# ---- IDE & Editor Files ----
 .vscode/
+.idea/
 
-# OS files
+# ---- OS Generated Files ----
 .DS_Store
 Thumbs.db
 
-# Logs
+# ---- Logs ----
 *.log
 
-# Cache
-*.cache/
-.cache/
-
-# Streamlit
+# ---- Streamlit ----
 .streamlit/
 
-# Credentials
-*.env
-.env
-*.ini
-
-# MySQL dumps
+# ---- MySQL dumps ----
 *.sql
 
-# -----------------------
-# Project specific
-# -----------------------
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Data Files (optional) ----
 data/raw/
-data/tmp/
-data/intermediate/
+data/interim/
+data/processed/
+
+# keep datasets under version control only if needed
+!data/ecom_dataset.csv
